@@ -1,1 +1,2 @@
-# DML_in_sql
+about the drl command theory=> DRL.txt
+practice                    =>DRL_practice.txt
