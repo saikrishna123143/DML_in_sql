@@ -1,0 +1,58 @@
+DRL(data retrieving language):
+
+  it is used to extract data fron the table.
+
+basic syntax:
+
+  select [all/distinct] <coloumn list/*> from table
+      [where condition]
+      [group by <grouping column list>]
+      [having <group condition>]
+      [order by<column> ASC/DESC];
+
+=>queries may have clauses for different purpose.
+
+
+clauses:
+ 
+  clause is a part of the query.
+  every clause have specific purpose.
+  
+present in this tutorial,we only cover the where clause only.
+
+
+different types of using the select query.
+   1)all columns and all rows
+   2)all columns and specific rows.
+   3)specific columns and all rows.
+   4)specific columns and specific rows.
+
+
+1)all columns AND all rows:
+  
+   select * from table_name;
+
+2)all columns and specific rows:
+   
+   select * from table_name where condition;
+
+3)specific columns and all  rows:
+  
+   select column_name from table_name;
+
+4)specific rows and specifc columns:
+  
+   select column_name from table_name where condition;
+
+
+priority of execution:
+  when we have 1)select caluse
+               2)from clause
+               3)where clause
+
+ *we will discuss remaining clause order in future
+
+
+     3)select * 
+     1)from table
+     2)where condtion
